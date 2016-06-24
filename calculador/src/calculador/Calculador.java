@@ -36,4 +36,8 @@ public class Calculador {
     double potencia(double a, double b){
     return Math.pow(a, b);
     } 
+    
+    double raiz(double a, double b){
+        return Math.pow(a, (double)(1/b));
+    }
 }
